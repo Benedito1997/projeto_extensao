@@ -1,0 +1,112 @@
+@import url(/css/colors.css);
+
+.bg-body-tertiary{
+    background-color: var(--azul) !important;
+    color: white !important;
+}
+
+section{
+    padding: 80px;
+}
+
+.card-text{
+    border-bottom: 1px solid var(--azul) !important;
+}
+
+.btn-primary{
+    background-color: var(--azul) !important;
+    border: var(--azul);
+}
+
+.recem_chegados > h4 {
+    padding-bottom:20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+  }
+
+footer{
+    height: 300px;
+    background-color: var(--azul);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divFrase{
+    max-width: 400px;
+}
+
+.divEncontre{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.divEncontre a{
+    text-decoration: none;
+}
+
+.adote{
+    width: 100%;
+    margin-top: 100px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    width: 100%;
+}
+
+.btn-principal{
+    background-color: var(--amarelo) !important;
+    padding: 10px 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-principal:hover{
+    background-color: var(--azul) !important;
+    transition: .3s;
+}
+
+.adote_text{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adote_text h5 {
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.adote img{
+    max-width: 500px;
+}
+
+@media (max-width: 550px) {
+    .adote img{
+        max-width: 300px;
+    }
+
+    .adote_text{
+        flex-wrap: wrap;
+    }
+    .adote_text h5{
+        font-size: 16px;
+    }
+}
